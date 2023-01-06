@@ -1,9 +1,12 @@
 {
-	"name": "DestinationDataset_xmp",
+	"name": "myblobs_blob",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "mysampledata_ls",
 			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ImportSampleData"
 		},
 		"annotations": [],
 		"type": "Binary",

@@ -4,7 +4,7 @@
 		"description": "Import blob data from 'quincytrompsa' storage account into mystorageaccsa' storage account",
 		"activities": [
 			{
-				"name": "Copy_xmp",
+				"name": "Import data",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -51,13 +51,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_xmp",
+						"referenceName": "adfbyexample_blob",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_xmp",
+						"referenceName": "myblobs_blob",
 						"type": "DatasetReference"
 					}
 				]

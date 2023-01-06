@@ -1,9 +1,12 @@
 {
-	"name": "SourceDataset_xmp",
+	"name": "adfbyexample_blob",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "myblobsampledata_ls",
 			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ImportSampleData"
 		},
 		"annotations": [],
 		"type": "Binary",
