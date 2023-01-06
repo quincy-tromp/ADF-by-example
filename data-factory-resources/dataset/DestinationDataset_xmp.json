@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_xmp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mysampledata_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "myblobs"
+			}
+		}
+	}
+}
