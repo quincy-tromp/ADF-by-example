@@ -1,0 +1,9 @@
+{
+	"name": "myfactory-adf",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6fa2a6b7-9e63-4d5a-972c-4f7a056e7ae5",
+		"tenantId": "f9041973-e228-45ce-8dbd-a51b4d7d3203"
+	}
+}
